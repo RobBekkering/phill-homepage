@@ -1,0 +1,112 @@
+
+/*Variables*/
+
+:root {
+  --main-color: #4469d3;
+  --grey-color: #606060;
+}
+
+/*Reset*/
+
+body {
+  margin: 0px;
+}
+
+
+/*Text styles*/
+
+h1, h2, p, a, ul {
+  font-family: 'Arboria';
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  color: var(--grey-color);
+}
+
+
+/* Layout */
+
+.container {
+  max-width: 1024px;
+  margin: 0px auto;
+}
+
+
+/* Buttons */
+
+.filled-button, .outlined-button, .outlined-white-button {
+  border: 2px solid var(--main-color);
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 28px 18px;
+  border-radius: 26px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.filled-button {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.filled-button:hover {
+  transform: translateY(-2px);
+}
+
+.outlined-button {
+  color: var(--main-color);
+}
+
+.outlined-button:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+
+.outlined-white-button {
+  color: white;
+  border: 2px solid white;
+}
+
+.outlined-white-button:hover {
+  color: var(--main-color);
+  background-color: white;
+}
+
+
+/*Flex standards*/
+
+.flex-around, .flex-between, .flex-around-center, .flex-between-center {
+  display: flex;
+}
+
+.flex-around, .flex-around-center {
+  justify-content: space-around;
+}
+
+.flex-between, .flex-between-center {
+  justify-content: space-between;
+}
+
+.flex-around-center, .flex-between-center {
+  align-items: center;
+}
+
+
+

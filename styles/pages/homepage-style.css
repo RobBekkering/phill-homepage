@@ -1,0 +1,61 @@
+
+/*Banner*/
+
+.banner {
+  width: 100%;
+  padding-top: 80px;
+  height: 100vh;
+  background-image: url('https://source.unsplash.com/1200x800');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  max-width: 500px;
+  padding-left: 8%;
+}
+
+.banner-heading, .banner-subheading {
+  color: white;
+}
+
+.banner-subheading {
+  margin: 30px 0px 50px;
+}
+
+
+/*Over ons*/
+
+.image-1 {
+  margin: -40px 0px 0px 40px;
+  width: 400px;
+  height: 450px;
+  background-image: url('https://source.unsplash.com/400x450');
+  background-position: center;
+  background-size: cover;
+}
+
+.ons-content {
+  max-width: 450px;
+  margin-top: 120px;
+}
+
+.ons-content > h1 {
+  color: var(--main-color);
+}
+
+.ons-content > h2 {
+  margin: 40px 0px 20px;
+}
+
+.ons-content > p {
+  margin-bottom: 40px;
+  width: 80%;
+}
+
+
+
+
+

@@ -3,42 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <title>Reqruitment</title>
+  <link rel="stylesheet" href="https://use.typekit.net/zwh1koy.css">
+  <link rel="stylesheet" href="styles/main-style.css">
+  <link rel="stylesheet" href="styles/shared/navbar-style.css">
+  <link rel="stylesheet" href="styles/shared/footer-style.css">
+  <link rel="stylesheet" href="styles/pages/homepage-style.css">
 </head>
 <body>
 
+  <!-- Navbar -->
   <div class="navbar">
-    <img src="#" alt="" class="nav-logo">
-    <a href="#" class="navbar-link">Over ons</a>
-    <a href="#" class="navbar-link">Onze diensten</a>
-    <a href="#" class="navbar-link">Cultuur</a>
-    <a href="#" class="navbar-link">Werken bij</a>
-    <a href="#" class="filled-button">Contact</a>
+    <div class="container flex-between-center">
+      <img src="images/logo.svg" alt="" class="navbar-logo">
+      <div class="navbar-content">
+        <div class="navbar-link">
+          <a href="#">Over ons</a>
+        </div>
+        <div class="navbar-link">
+          <a href="#">Onze diensten</a>
+        </div>
+        <div class="navbar-link">
+          <a href="#">Cultuur</a>
+        </div>
+        <div class="navbar-link">
+          <a href="#">Werken bij</a>
+        </div>
+        <div class="navbar-button">
+          <a href="#" class="filled-button">Contact</a>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <!-- Banner -->
   <div class="banner">
     <div class="banner-content">
-      <h1>01 - Reqruitment</h1>
-      <h2>De beste HR professionals, wanneer jij het nodig hebt.</h2>
-      <a href="#" class="outlined-button">Learn More</a>
+      <h1 class="banner-heading">01 &mdash; Reqruitment</h1>
+      <h2 class="banner-subheading">De beste HR professionals, wanneer jij het nodig hebt.</h2>
+      <a href="#" class="filled-button">Learn More</a>
     </div>
   </div>
 
+  <!-- Over ons -->
   <div class="wrapper">
-    <div class="image-1"></div>
-    <div class="content-holder">
-      <h1>02 - Over ons</h1>
-      <h2>Wij gaan tot het uiterste en daar voorbij.</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in enim accumsan, tincidunt ipsum ac, fermentum justo.
-      </p>
-      <a href="#" class="outlined-button">Learn More</a>
+    <div class="container flex-between">
+      <div class="image-1"></div>
+      <div class="ons-content">
+        <h1>02 &mdash; Over ons</h1>
+        <h2>Wij gaan tot het uiterste en daar voorbij.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in enim accumsan, tincidunt ipsum ac, fermentum justo.
+        </p>
+        <a href="#" class="outlined-button">Learn More</a>
+      </div>
     </div>
   </div>
 
+  <!-- Onze diensten -->
   <div class="wrapper">
     <img src="#" alt="" class="arrow-home">
     <div class="content-holder">
-      <h1>03 - Onze diensten</h1>
+      <h1 class="primary-text">03 &mdash; Onze diensten</h1>
       <span>Interim</span><span></span>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in enim accumsan, tincidunt ipsum ac, fermentum justo.
@@ -51,10 +76,11 @@
     <img src="#" alt="" class="background-image">
   </div>
 
+  <!-- Clients -->
   <div class="wrapper">
     <div class="banner-small">
       <div class="content-holder">
-        <h1>04 - Clients</h1>
+        <h1 class="primary-text">04 &mdash; Clients</h1>
         <h2>Already more than 5,500 satisfied clients</h2>
         <a href="#" class="outlined-button">Learn More</a>
       </div>
@@ -64,8 +90,9 @@
 
   </div>
 
+  <!-- Cultuur -->
   <div class="wrapper">
-    <h1>05 - Cultuur</h1>
+    <h1 class="primary-text">05 &mdash; Cultuur</h1>
     <div class="image-2"></div>
     <div class="image-3"></div>
     <div class="small-bar-home"></div>
@@ -83,6 +110,7 @@
     </div>
   </div>
 
+  <!-- Vacancies -->
   <div class="wrapper">
     <div class="vacany-title-home">
       <h2>Vacancies</h2>
@@ -104,22 +132,27 @@
     </div>
   </div>
 
-  <div class="wrapper">
-    <img src="#" alt="" class="logo-footer">
-    <div class="flex-box">
-      <p class="link-footer">Reqruitment</p>
-      <p class="link-footer">Over ons</p>
-      <p class="link-footer">Onze diensten</p>
-      <p class="link-footer">Cultuur</p>
-      <p class="link-footer">Werken bij</p>
-    </div>
-    <div class="flex-box">
-      <div class="content-holder">
-        <p class="info-footer">Apollolaan 171<br>1077 AS Amsterdam</p>
-        <p class="info-footer">T: 0207053333<br>M: werkenbij@jobsmediagroup.com</p>
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container flex-around-center footer-container">
+      <div class="footer-content">
+        <img src="images/white-logo.svg" alt="" class="footer-logo">
+        <div class="flex-around">
+          <p class="footer-link">Reqruitment</p>
+          <p class="footer-link">Over ons</p>
+          <p class="footer-link">Onze diensten</p>
+          <p class="footer-link">Cultuur</p>
+          <p class="footer-link">Werken bij</p>
+        </div>
       </div>
-      <div class="content-holder">
-        <p class="info-footer">copyright &copy; Jobsmediagroup.com</p>
+      <div class="flex-between footer-info">
+        <div class="footer-info-content">
+          <p>Apollolaan 171<br>1077 AS Amsterdam</p>
+          <p>T: 0207053333<br>M: werkenbij@jobsmediagroup.com</p>
+        </div>
+        <div class="footer-copyright">
+          <p>copyright &copy; Jobsmediagroup.com</p>
+        </div>
       </div>
     </div>
   </div>
