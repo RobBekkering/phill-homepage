@@ -1,6 +1,6 @@
 var slideIndex = 0;
 
-function showSlides() {12
+function showSlides() {
     const images = document.querySelectorAll('.image-slider-image');
     const dots = document.querySelectorAll('.image-slider-dot');
 
@@ -10,7 +10,6 @@ function showSlides() {12
     }
 
     slideIndex++;
-
     if (slideIndex > images.length) {slideIndex = 1}
 
     images[slideIndex-1].style.display = "block";
