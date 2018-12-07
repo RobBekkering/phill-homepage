@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Reqruitment</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.typekit.net/zwh1koy.css">
   <link rel="stylesheet" href="styles/main-style.css">
   <link rel="stylesheet" href="styles/shared/navbar-style.css">
@@ -14,7 +15,9 @@
   <!-- Navbar -->
   <div class="navbar">
     <div class="container flex-between-center">
-      <img src="images/logo.svg" alt="" class="navbar-logo">
+      <a href="#">
+        <img src="images/logo.svg" alt="" class="navbar-logo">
+      </a>
       <div class="navbar-content">
         <div class="navbar-link">
           <a href="#">Over ons</a>
@@ -37,18 +40,20 @@
 
   <!-- Banner -->
   <div class="banner">
-    <div class="banner-content">
-      <h1 class="banner-heading">01 &mdash; Reqruitment</h1>
-      <h2 class="banner-subheading">De beste HR professionals, wanneer jij het nodig hebt.</h2>
-      <a href="#" class="filled-button">Learn More</a>
+    <div class="container flex-center">
+      <div class="banner-content">
+        <h1 class="banner-heading">01 &mdash; Reqruitment</h1>
+        <h2 class="banner-subheading">De beste HR professionals, wanneer jij het nodig hebt.</h2>
+        <a href="#" class="filled-button">Learn More</a>
+      </div>
     </div>
   </div>
 
   <!-- Over ons -->
   <div class="wrapper">
-    <div class="container flex-between">
+    <div class="container flex-around">
       <div class="image-1"></div>
-      <div class="ons-content">
+      <div class="content-holder ons-content">
         <h1>02 &mdash; Over ons</h1>
         <h2>Wij gaan tot het uiterste en daar voorbij.</h2>
         <p>
@@ -61,18 +66,29 @@
 
   <!-- Onze diensten -->
   <div class="wrapper">
-    <img src="#" alt="" class="arrow-home">
-    <div class="content-holder">
-      <h1 class="primary-text">03 &mdash; Onze diensten</h1>
-      <span>Interim</span><span></span>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in enim accumsan, tincidunt ipsum ac, fermentum justo.
-      </p>
-      <h2>Sourcing Strategisch advies</h2>
+    <div class="container flex-around">
+      <div class="flex-between arrow-trigger">
+        <i class="fas fa-arrow-right arrow-dienst"></i>
+        <div>
+          <div class="content-holder dienst-content">
+            <h1 class="primary-text">03 &mdash; Onze diensten</h1>
+            <a href="#" class="link-holder-dienst">
+              <h2>Interim</h2>
+              <div class="round-arrow-dienst flex-around-center">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </a>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in enim accumsan, tincidunt ipsum ac, fermentum justo.
+            </p>
+            <h2>Sourcing Strategisch advies</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Javascript slider -->
+
     </div>
-
-    <!-- Javascript slider -->
-
     <img src="#" alt="" class="background-image">
   </div>
 
@@ -138,11 +154,11 @@
       <div class="footer-content">
         <img src="images/white-logo.svg" alt="" class="footer-logo">
         <div class="flex-around">
-          <p class="footer-link">Reqruitment</p>
-          <p class="footer-link">Over ons</p>
-          <p class="footer-link">Onze diensten</p>
-          <p class="footer-link">Cultuur</p>
-          <p class="footer-link">Werken bij</p>
+          <a href="#" class="footer-link">Reqruitment</a>
+          <a href="#" class="footer-link">Over ons</a>
+          <a href="#" class="footer-link">Onze diensten</a>
+          <a href="#" class="footer-link">Cultuur</a>
+          <a href="#" class="footer-link">Werken bij</a>
         </div>
       </div>
       <div class="flex-between footer-info">

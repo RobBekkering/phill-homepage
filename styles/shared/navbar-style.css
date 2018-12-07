@@ -22,8 +22,9 @@
 }
 
 .navbar-link {
-  transition: all 0.2s ease-in;
+  margin-right: 20px;
   border-top: 0px solid var(--main-color);
+  transition: all 0.2s ease-in;
 }
 
 .navbar-link:hover {
@@ -35,7 +36,6 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
-  margin-right: 25px;
   color: var(--grey-color);
 }
 

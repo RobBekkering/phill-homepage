@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--main-color);
-  height: calc(100vh - 180px);
-  padding: 40px 20px;
+  height: calc(100vh - 140px);
+  padding: 20px 20px;
 }
 
 .footer-container {
@@ -17,14 +17,22 @@
 
 .footer-logo {
   max-width: 500px;
-  margin: 30px 10px;
+  margin: 0px 10px 60px;
 }
 
 .footer-link {
+  text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   color: #fff;
   margin: 0px 20px;
+  padding-bottom: 50px;
+  transition: all 0.2s;
+}
+
+.footer-link:hover {
+  border-bottom: 10px solid white;
+  padding-bottom: 40px;
 }
 
 .footer-info {
@@ -56,8 +64,3 @@
   bottom: 0px;
   right: 0px;
 }
-
-
-/** {
-  outline: 1px dotted red;
-}*/

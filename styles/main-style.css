@@ -1,3 +1,7 @@
+/** {
+  outline: 1px dotted red;
+}*/
+
 
 /*Variables*/
 
@@ -27,13 +31,13 @@ h1 {
 }
 
 h2 {
-  font-size: 56px;
+  font-size: 64px;
   font-weight: 700;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5em;
   letter-spacing: 0.05em;
   color: var(--grey-color);
@@ -43,7 +47,8 @@ p {
 /* Layout */
 
 .container {
-  max-width: 1024px;
+  width: 80%;
+  max-width: 1600px;
   margin: 0px auto;
 }
 
@@ -55,7 +60,7 @@ p {
   display: inline-block;
   text-decoration: none;
   padding: 15px 28px 18px;
-  border-radius: 26px;
+  border-radius: 28px;
   font-weight: bold;
   font-size: 14px;
   transition: all 0.2s;
@@ -92,7 +97,7 @@ p {
 
 /*Flex standards*/
 
-.flex-around, .flex-between, .flex-around-center, .flex-between-center {
+.flex-around, .flex-between, .flex-around-center, .flex-between-center, .flex-center {
   display: flex;
 }
 
@@ -104,7 +109,7 @@ p {
   justify-content: space-between;
 }
 
-.flex-around-center, .flex-between-center {
+.flex-around-center, .flex-between-center, .flex-center {
   align-items: center;
 }
 

@@ -1,4 +1,15 @@
 
+/*Generic*/
+
+.content-holder {
+  max-width: 450px;
+}
+
+.content-holder > h1 {
+  color: var(--main-color);
+}
+
+
 /*Banner*/
 
 .banner {
@@ -8,13 +19,14 @@
   background-image: url('https://source.unsplash.com/1200x800');
   background-position: center;
   background-size: cover;
-  display: flex;
-  align-items: center;
+}
+
+.banner > .container {
+  height: 100%;
 }
 
 .banner-content {
   max-width: 500px;
-  padding-left: 8%;
 }
 
 .banner-heading, .banner-subheading {
@@ -29,21 +41,16 @@
 /*Over ons*/
 
 .image-1 {
-  margin: -40px 0px 0px 40px;
-  width: 400px;
-  height: 450px;
+  margin: -80px 0px 0px;
+  width: 550px;
+  height: 600px;
   background-image: url('https://source.unsplash.com/400x450');
   background-position: center;
   background-size: cover;
 }
 
 .ons-content {
-  max-width: 450px;
-  margin-top: 120px;
-}
-
-.ons-content > h1 {
-  color: var(--main-color);
+  margin-top: 180px;
 }
 
 .ons-content > h2 {
@@ -53,6 +60,65 @@
 .ons-content > p {
   margin-bottom: 40px;
   width: 80%;
+}
+
+
+/*Onze diensten*/
+
+.dienst-content > h1 {
+  margin-bottom: 80px;
+}
+
+.dienst-content > p {
+  margin-top: 40px;
+}
+
+.dienst-content > h2 {
+  margin-top: 20px;
+}
+
+.dienst-content > a {
+  text-decoration: none;
+}
+
+.link-holder-dienst {
+  display: flex;
+  align-items: center;
+}
+
+.link-holder-dienst:hover > .round-arrow-dienst {
+  transform: scale(1.2);
+}
+
+.link-holder-dienst > h2 {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+.link-holder-dienst:hover > h2 {
+  text-decoration: none;
+}
+
+.arrow-dienst {
+  color: var(--main-color);
+  font-size: 48px;
+  margin-top: 120px;
+  margin-right: 40px;
+}
+
+.round-arrow-dienst {
+  background-color: var(--main-color);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-top: 16px;
+  margin-left: 20px;
+  transition: all 200ms;
+}
+
+.round-arrow-dienst > i {
+  color: white;
+  font-size: 14px;
 }
 
 
