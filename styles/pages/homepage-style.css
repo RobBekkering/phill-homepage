@@ -14,8 +14,8 @@
 
 .banner {
   width: 100%;
-  padding-top: 80px;
-  height: 100vh;
+  padding-top: 100px;
+  height: calc(100vh - 100px);
   background-image: url('https://source.unsplash.com/1200x800');
   background-position: center;
   background-size: cover;
@@ -41,7 +41,7 @@
 /*Over ons*/
 
 .image-1 {
-  margin: -40px 0px 0px;
+  margin: -5vh 0px 0px;
   width: 450px;
   height: 500px;
   background-image: url('https://source.unsplash.com/400x450');
@@ -119,7 +119,6 @@
   width: 40px;
   margin-top: 16px;
   margin-left: 20px;
-  transition: all 200ms;
 }
 
 .round-arrow-dienst > i {
@@ -200,7 +199,6 @@
   margin-bottom: 80px;
 }
 
-
 .image-2 {
   width: 500px;
   height: 350px;
@@ -255,3 +253,81 @@
   margin: 10px 0px 40px;
 }
 
+
+/*Vacancies*/
+
+.vacany-title-home > div {
+  position: relative;
+}
+
+.vacancy-counter-badge {
+  color: white;
+  padding: 6px 9px 6px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: -40px;
+}
+
+.side-scroll {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-bottom: 80px;
+}
+
+.vacany-card {
+  position: relative;
+  flex: 0 0 auto;
+  max-width: 250px;
+  outline: 1px solid #eee;
+  margin: 50px;
+  padding: 80px 30px 40px;
+}
+
+.rank-vacany-card {
+  position: absolute;
+  background-color: #fdac2a;
+  color: white;
+  padding: 2px 10px;
+  top: 30px;
+  right: 20px;
+}
+
+.title-vacancy-card {
+  font-size: 32px;
+  color: var(--main-color);
+}
+
+.bullet-vacancy-card {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.link-vacancy-card {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 24px;
+}
+
+.link-vacancy-card > h2 {
+  text-decoration: none;
+  color: var(--main-color);
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+.round-arrow-vacancy {
+  background-color: var(--main-color);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.round-arrow-vacancy > i {
+  color: white;
+  font-size: 16px;
+}

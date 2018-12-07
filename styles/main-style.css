@@ -19,7 +19,7 @@ body {
 
 /*Text styles*/
 
-h1, h2, p, a, ul {
+h1, h2, p, a, ul, li {
   font-family: 'Arboria';
   padding: 0px;
   margin: 0px;
@@ -41,6 +41,10 @@ p {
   line-height: 1.5em;
   letter-spacing: 0.05em;
   color: var(--grey-color);
+}
+
+li {
+  list-style-type: none;
 }
 
 
