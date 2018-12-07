@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 1.2em;
 }
@@ -47,9 +47,13 @@ p {
 /* Layout */
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: 1600px;
   margin: 0px auto;
+}
+
+.wrapper {
+  position: relative;
 }
 
 
