@@ -65,6 +65,11 @@
 
 /*Onze diensten*/
 
+.dienst-container {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
 .dienst-content > h1 {
   margin-bottom: 80px;
 }
@@ -86,10 +91,6 @@
   align-items: center;
 }
 
-.link-holder-dienst:hover > .round-arrow-dienst {
-  transform: scale(1.2);
-}
-
 .link-holder-dienst > h2 {
   color: var(--main-color);
   text-decoration: underline;
@@ -104,6 +105,11 @@
   font-size: 48px;
   margin-top: 120px;
   margin-right: 40px;
+  transition: all 200ms;
+}
+
+.arrow-dienst-hover {
+  transform: translateX(20px);
 }
 
 .round-arrow-dienst {
@@ -121,6 +127,25 @@
   font-size: 14px;
 }
 
+.image-slider-image {
+  display: none;
+  width: 550px;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-slider-dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #aaa;
+}
+
+.active-dot {
+  background-color: #666;
+}
 
 
 
