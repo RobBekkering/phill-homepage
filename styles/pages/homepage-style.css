@@ -185,14 +185,21 @@
 /*Cultuur*/
 
 .cultuur-container {
-  height: 100vh;
+  height: 80vh;
   margin-top: 80px;
   position: relative;
+}
+
+.cultuur-header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 
 .cultuur-info-container {
   margin-bottom: 80px;
 }
+
 
 .image-2 {
   width: 500px;
@@ -223,6 +230,25 @@
   background-image: url('https://source.unsplash.com/300x250');
   background-position: center;
   background-size: cover;
+}
+
+.small-bar-home {
+  width: 200px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: var(--main-color);
+  z-index: 1;
+}
+
+.big-bar-home {
+  width: 80px;
+  height: 32px;
+  border-radius: 16px 0px 0px 16px;
+  position: absolute;
+  right: 0px;
+  top: 500px;
+  background-color: var(--main-color);
+  z-index: 1;
 }
 
 .cultuur-content > p {
