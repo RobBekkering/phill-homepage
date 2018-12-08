@@ -256,7 +256,7 @@
 
 /*Vacancies*/
 
-.vacany-title-home > div {
+.vacancy-title-home > div {
   position: relative;
 }
 
@@ -278,21 +278,28 @@
   margin-bottom: 80px;
 }
 
-.vacany-card {
+.vacancy-card {
+  box-shadow: 0px 0px 0px var(--main-color);
+  transition: all 200ms;
   position: relative;
   flex: 0 0 auto;
   max-width: 250px;
   outline: 1px solid #eee;
-  margin: 50px;
-  padding: 80px 30px 40px;
+  margin: 40px 60px;
+  padding: 80px 30px 60px;
 }
 
-.rank-vacany-card {
+.vacancy-card:hover {
+  box-shadow: 10px 10px 0px var(--main-color);
+  transform: translate(-5px, -5px);
+}
+
+.rank-vacancy-card {
   position: absolute;
   background-color: #fdac2a;
   color: white;
   padding: 2px 10px;
-  top: 30px;
+  top: 25px;
   right: 20px;
 }
 
@@ -311,23 +318,28 @@
   text-decoration: none;
   color: var(--main-color);
   font-size: 24px;
+  margin-top: 60px;
 }
 
 .link-vacancy-card > h2 {
   text-decoration: none;
   color: var(--main-color);
-  margin-top: 40px;
-  font-size: 12px;
+  font-size: 24px;
+}
+
+.link-vacancy-card:hover > .round-arrow-vacancy {
+  transform: scale(1.1);
 }
 
 .round-arrow-vacancy {
   background-color: var(--main-color);
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
+  transition: all 150ms;
 }
 
 .round-arrow-vacancy > i {
   color: white;
-  font-size: 16px;
+  font-size: 12px;
 }
