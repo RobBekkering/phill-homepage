@@ -2,7 +2,7 @@
 /*Generic*/
 
 .content-holder {
-  max-width: 450px;
+  max-width: 350px;
 }
 
 .content-holder > h1 {
@@ -119,6 +119,7 @@
   width: 40px;
   margin-top: 16px;
   margin-left: 20px;
+  transition: all 150ms;
 }
 
 .round-arrow-dienst > i {
@@ -289,7 +290,7 @@
   flex: 0 0 auto;
   max-width: 250px;
   outline: 1px solid #eee;
-  margin: 40px 80px;
+  /*margin: 40px 80px;*/
   padding: 80px 30px 60px;
 }
 
@@ -352,3 +353,33 @@
   color: white;
   font-size: 12px;
 }
+
+@media all and (max-width: 480px) {
+  .ons-content {
+    margin-top: 60px;
+  }
+  .dienst-container {
+    margin: 60px 0px 80px;
+  }
+  .arrow-dienst {
+    display: none;
+  }
+  .js-image-slider {
+    display: none;
+  }
+  .image-1 {
+    margin: 80px -20px 0px;
+  }
+  .image-2 {
+    position: static;
+  }
+  .image-3 {
+    position: static;
+  }
+  .image-4 {
+    display: none;
+  }
+}
+
+
+

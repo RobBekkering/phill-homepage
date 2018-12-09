@@ -49,5 +49,10 @@
   color: var(--main-color);
 }
 
+@media all and (max-width: 480px) {
+  .navbar-link, .navbar-button {
+    display: none;
+  }
+}
 
 

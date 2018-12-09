@@ -55,6 +55,7 @@ li {
   width: 80%;
   max-width: 1200px;
   margin: 0px auto;
+  flex-wrap: wrap;
 }
 
 .wrapper {
@@ -123,5 +124,17 @@ li {
   align-items: center;
 }
 
+
+@media all and (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+  .flex-reverse {
+    flex-wrap: wrap-reverse;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+}
 
 
