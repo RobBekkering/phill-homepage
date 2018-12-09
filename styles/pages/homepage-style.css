@@ -54,7 +54,7 @@
 }
 
 .ons-content > h2 {
-  margin: 40px 0px 20px;
+  margin: 60px 0px 20px;
 }
 
 .ons-content > p {
@@ -71,7 +71,7 @@
 }
 
 .dienst-content > h1 {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .dienst-content > p {
@@ -182,7 +182,7 @@
 
 .banner-small-content > h2 {
   color: white;
-  margin: 80px 0px 40px;
+  margin: 60px 0px 40px;
 }
 
 
@@ -290,8 +290,13 @@
   flex: 0 0 auto;
   max-width: 250px;
   outline: 1px solid #eee;
-  /*margin: 40px 80px;*/
+  margin: 40px;
   padding: 80px 30px 60px;
+}
+
+.vacancy-stopper {
+  flex: 0 0 auto;
+  width: 1px
 }
 
 .vacancy-card:hover {
@@ -378,6 +383,9 @@
   }
   .image-4 {
     display: none;
+  }
+  .vacancy-card {
+    margin: 40px 20px;
   }
 }
 

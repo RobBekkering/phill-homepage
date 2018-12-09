@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>Reqruitment</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.typekit.net/zwh1koy.css">
@@ -16,27 +16,35 @@
 <!-- Navbar -->
   <div class="navbar">
     <div class="navbar-container flex-between-center">
-      <a href="#">
-        <img src="images/logo.svg" alt="" class="navbar-logo">
-      </a>
+      <img src="images/logo.svg" alt="" class="navbar-logo">
       <div class="navbar-content">
         <div class="navbar-link">
-          <a href="#">Over ons</a>
+          <a href="#ons">Over ons</a>
         </div>
         <div class="navbar-link">
-          <a href="#">Onze diensten</a>
+          <a href="#dienst">Onze diensten</a>
         </div>
         <div class="navbar-link">
-          <a href="#">Cultuur</a>
+          <a href="#cultuur">Cultuur</a>
         </div>
         <div class="navbar-link">
-          <a href="#">Werken bij</a>
+          <a href="#vacancy">Werken bij</a>
         </div>
         <div class="navbar-button">
           <a href="#" class="filled-button">Contact</a>
         </div>
       </div>
+      <i id="nav-burger" class="fas fa-bars"></i>
     </div>
+  </div>
+
+<!-- Navbar dropdown -->
+  <div id="nav-dropdown" class="dropdown-toggle">
+    <a href="#ons" class="nav-dropdown-link"><p class="nav-dropdown-link">Over ons</p></a>
+    <a href="#dienst" class="nav-dropdown-link"><p class="nav-dropdown-link">Onze diensten</p></a>
+    <a href="#cultuur" class="nav-dropdown-link"><p class="nav-dropdown-link">Cultuur</p></a>
+    <a href="#vacancy" class="nav-dropdown-link"><p class="nav-dropdown-link">Werken bij</p></a>
+    <a href="#" class="nav-dropdown-link"><p class="nav-dropdown-link">Contact</p></a>
   </div>
 
 <!-- Banner -->
@@ -51,7 +59,7 @@
   </div>
 
 <!-- Over ons -->
-  <div class="wrapper">
+  <div id="ons" class="wrapper">
     <div class="container flex-between flex-reverse">
       <div class="image-1"></div>
       <div class="content-holder ons-content">
@@ -66,14 +74,14 @@
   </div>
 
 <!-- Onze diensten -->
-  <div class="wrapper flex-around-center">
+  <div id="dienst" class="wrapper flex-around-center">
     <img src="images/dienst.svg" alt="" class="background-image">
     <div class="container flex-between dienst-container">
       <div class="flex-between">
         <i class="fas fa-arrow-right arrow-dienst"></i>
         <div>
           <div class="content-holder dienst-content">
-            <h1 class="primary-text">03 &mdash; Onze diensten</h1>
+            <h1>03 &mdash; Onze diensten</h1>
             <a href="#" class="link-holder-dienst">
               <h2>Interim</h2>
               <div class="round-arrow-dienst flex-around-center">
@@ -105,11 +113,11 @@
   </div>
 
 <!-- Clients -->
-  <div class="wrapper">
+  <div id="client" class="wrapper">
     <div class="banner-small flex-center">
       <div class="container">
         <div class="content-holder banner-small-content">
-          <h1 class="primary-text">04 &mdash; Clients</h1>
+          <h1>04 &mdash; Clients</h1>
           <h2>Already more than 5,500 satisfied clients</h2>
           <a href="#" class="outlined-white-button">Learn More</a>
         </div>
@@ -121,7 +129,7 @@
   </div>
 
 <!-- Cultuur -->
-  <div class="wrapper flex-around-center">
+  <div id="cultuur" class="wrapper flex-around-center">
     <img src="images/cultuur.svg" alt="" class="background-image" style="background-position: center bottom;">
     <div class="big-bar-home"></div>
     <div class="container cultuur-container flex-around-center">
@@ -147,7 +155,7 @@
   </div>
 
 <!-- Vacancies -->
-  <div class="wrapper">
+  <div id="vacancy" class="wrapper">
     <div class="container">
       <div class="vacancy-title-home flex-around">
         <div>
@@ -239,6 +247,8 @@
         </a>
       </div>
 
+      <div class="vacancy-stopper"></div>
+
     </div>
   </div>
 
@@ -250,10 +260,10 @@
         <img src="images/white-logo.svg" alt="" class="footer-logo">
         <div class="flex-around flex-reverse">
           <a href="#" class="footer-link">Reqruitment</a>
-          <a href="#" class="footer-link">Over ons</a>
-          <a href="#" class="footer-link">Onze diensten</a>
-          <a href="#" class="footer-link">Cultuur</a>
-          <a href="#" class="footer-link">Werken bij</a>
+          <a href="#ons" class="footer-link">Over ons</a>
+          <a href="#dienst" class="footer-link">Onze diensten</a>
+          <a href="#cultuur" class="footer-link">Cultuur</a>
+          <a href="#vacancy" class="footer-link">Werken bij</a>
         </div>
       </div>
       <div class="flex-between footer-info flex-wrap">
@@ -268,6 +278,7 @@
     </div>
   </div>
 
+  <script src="Javascript/navbar-dropdown.js"></script>
   <script src="Javascript/dienst-hover.js"></script>
   <script src="Javascript/image-slider.js"></script>
 </body>

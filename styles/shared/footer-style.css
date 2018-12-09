@@ -77,7 +77,7 @@
   }
   .footer {
     height: 100%;
-    padding: 40px 0px;
+    padding: 40px 0px 20px;
   }
   .footer-content {
     width: 100%;
@@ -96,10 +96,16 @@
   .footer-copyright {
     width: 100%;
     text-align: center;
+    margin-top: 20px;
   }
   .footer-copyright > p {
     position: static;
     width: 100%;
     text-align: center;
+    opacity: 0.4;
+  }
+  .footer-link:hover {
+    border-bottom: 0px solid white;
+    padding-bottom: 10px;
   }
 }
