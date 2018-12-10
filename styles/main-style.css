@@ -1,8 +1,3 @@
-/** {
-  outline: 1px dotted red;
-}*/
-
-
 /*Variables*/
 
 :root {
@@ -20,7 +15,7 @@ body {
 /*Text styles*/
 
 h1, h2, p, a, ul, li {
-  font-family: 'Arboria', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Arial', sans-serif;
   padding: 0px;
   margin: 0px;
 }
