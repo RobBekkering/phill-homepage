@@ -28,6 +28,7 @@
 }
 
 .navbar-link {
+  font-size: 12px;
   margin-right: 20px;
   border-top: 0px solid var(--main-color);
   transition: all 0.2s ease-in;
@@ -84,6 +85,7 @@
   }
   .navbar-logo {
     height: 25px;
+    width: auto;
     margin: 30px 0px;
   }
   .navbar {
